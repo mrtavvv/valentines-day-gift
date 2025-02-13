@@ -160,7 +160,11 @@
         </div>
     </div>
 
-    <audio id="bg-audio" src="assets/Justin Timberlake  Not a Bad Thing Official Audio.mp3" autoplay loop></audio>
+    <audio id="bg-audio" autoplay loop muted playsinline webkit-playsinline>
+        <source src="assets/Justin Timberlake  Not a Bad Thing Official Audio.mp3" type="audio/mp3">
+        <source src="assets/Justin-Timberlake-Not-a-Bad-Thing-Official-Audio.ogg" type="audio/ogg">
+        your browser does not support the audio element 
+    </audio>
     <script src="index.js"></script>
 </body>
 
